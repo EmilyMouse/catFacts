@@ -3,14 +3,20 @@
  <head>
   <meta charset="UTF-8">
   <title>Cat Facts</title>
+   <link rel = "stylesheet" href = "css/style.css" type = text/css>
  </head>
  <body>
   <h1>WELCOME TO CAT FACTS</h1>
-   <h2>Mess with people by inputing their number to CAT FACTS. And we'll send them daily texts!</h2>
-   
+  <div class = "description">
+    <h2>Mess with people by inputting their number to CAT FACTS. And we'll send them daily texts!</h2>
+   </div>
+   <div class = "form">
      <form method = "POST" action ="/input">
      <input type = "text" name = "input_string">
      <input type = "submit" value = "Enter Number">
    </form>  
+     </div>
+   
+   <h3>Please enter a 10 digit number with no lines or dashes! ex: 1234567890</h3>
  </body>
 </html>

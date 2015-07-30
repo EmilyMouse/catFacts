@@ -11,7 +11,7 @@ post '/input' do
 #    puts "this is #{params}"
     num = params[:input_string]
     addNum(num)
-   massText
+   #massText
     erb :input
   end
 

@@ -1,0 +1,23 @@
+
+h1{
+  text-align: center;
+  color: blue;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.description {
+  text-align: center;
+  width: 50%; 
+  margin-left: 25%;
+  color: pink;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.form{
+  text-align:center;
+}
+body {
+    background-image: url("http://beautyartpics.com/wp-content/uploads/2015/03/cat-hd-wallpaper-for-computer.jpg");
+}
+
+h3{
+  text-align: center;
+}
