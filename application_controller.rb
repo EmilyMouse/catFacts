@@ -10,7 +10,8 @@ class MyApp < Sinatra::Base
 post '/input' do
 #    puts "this is #{params}"
     num = params[:input_string]
-    @number = facts(num)
+    addNum(num)
+   massText
     erb :input
   end
 
