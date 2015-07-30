@@ -2,6 +2,13 @@ require 'rubygems'
 require 'twilio-ruby'
 require 'fileutils'
 require 'tempfile'
+
+#Master panel
+
+
+
+
+
 #database file thing
 def addNum(num)
   puts num
@@ -269,6 +276,11 @@ from = "+14342605034" # Your Twilio number
     :body => @cats[factID]
   )
   puts "Sent message" }
+end
+
+
+def newFact(fact)
+  @cats.push(fact)
 end
 
 
