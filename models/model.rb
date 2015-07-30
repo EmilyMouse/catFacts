@@ -6,11 +6,9 @@ require 'tempfile'
 #Master panel
 
 
-
-
-
 #database file thing
 def addNum(num)
+
   puts num
   if num =~ /\A[0-9]{10}\Z/
     num= "+1"+num
@@ -42,8 +40,11 @@ def valid?(phone_number)
     return valid
 end
 #cat fact
-=end
 
+def newFact(cats, fact)
+  cats.push(fact)
+end
+=end
 
 def massText
   @cats = ["Every year, nearly four million cats are eaten in Asia",
@@ -277,11 +278,3 @@ from = "+14342605034" # Your Twilio number
   )
   puts "Sent message" }
 end
-
-
-def newFact(fact)
-  @cats.push(fact)
-end
-
-
-
